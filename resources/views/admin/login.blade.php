@@ -1,0 +1,1 @@
+<h1>I am admin and my name is {{$admin}}</h1>
