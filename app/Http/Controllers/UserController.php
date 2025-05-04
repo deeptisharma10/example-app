@@ -24,6 +24,7 @@ class UserController extends Controller {
         return view('getUser', ['name' => $name]);
     }
 
+    //routing for admin and deep nested view 
     function myAdmin($adminName){
         return view('admin.login', ['admin' => $adminName]);
     }
